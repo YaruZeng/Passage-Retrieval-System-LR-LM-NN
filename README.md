@@ -26,6 +26,7 @@ Word2Vec is used to generate embeddings of words, which then are utilised to com
 The LambdaMART(LM) learning-to-rank algorithm from XGBoost gradient boosting library is used to learn a model that can re-rank passages. 
 
 ### 4. task4.py
-This part of work utilises Tensor￿ow to build a neural network based model with the ability of re-ranking passages. The performance of the model is evaluated by MAP and NDCG on the validation data set.
+This part of work utilises Tensorflow to build a neural network based model with the ability of re-ranking passages. The performance of the model is evaluated by MAP and NDCG on the validation data set.
+
 
 For more details of the input processing, features or representations chosen, hyper-parameter tuning method, and neural architecture chosen while implementing the models and modeling, please check on the 'Report.pdf' file. 
