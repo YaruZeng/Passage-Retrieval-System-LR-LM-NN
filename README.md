@@ -9,7 +9,7 @@ Techniques of information retrieval are applied widely on searching engines, que
 A tab separated file, where each row contains a test query identifier (qid) and the actual query text.
 
 ### 2. candidate-passages-top1000.tsv (189877 rows)
-A tab separated file with an initial selection of at most 1000 passages for each of the queries in 'test-queries.tsv'. The format of this file is <qid pid query passage>, where pid is the identifier of the passage retrieved, query is the query text, and passage is the passage text (all tab separated). The passages contained in this file are the same as the ones in passage-collection.txt. Figure 1 shows some sample rows from the file.
+A tab separated file with an initial selection of at most 1000 passages for each of the queries in 'test-queries.tsv'. The format of this file is <qid pid query passage>, where pid is the identifier of the passage retrieved, query is the query text, and passage is the passage text (all tab separated). The passages contained in this file are the same as the ones in passage-collection.txt. 
 
 ### 3. train_data.tsv (1048576 rows) and validation_data.tsv (1048576 rows)
 These are the datasets used for training and validation. The models were trained on the training set and their performances were evaluated on the validation set. In these datasets, additional relevance columns were given indicating the relevance of the passage to the query. The formats of both files are <qid pid query passage relevancy>. 
