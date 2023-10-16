@@ -1,5 +1,5 @@
 # Passage-Retrieval-System-Improvement
-The project is based on the project named 'Passage-Retrieval-System' in my repository. It aims to develop information retrieval models to solve the problem of passage retrieval. 
+The project is based on the project <a href="https://github.com/YaruZeng/Passage-Retrieval-System">Passage-Retrieval-System</a> in my repository. It aims to develop information retrieval models to solve the problem of passage retrieval. 
 
 ## Project Introduction 
 Techniques of information retrieval are applied widely on searching engines, question answering, and recommendations. To improve the basic models implemented in the first project, this project constructs Logistic Regression Model, LambdaMART Model, and Neural Network Model to predict the relevance of queries and passages. Finally, the performance of the models are evaluated by Mean Average Precision(MAP) and Normalized Discounted Cumulative Gain(NDCG).
